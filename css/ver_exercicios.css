@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-image: url(/img/fotos_site/background.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
+  margin: 0 60px;
+}
+
+div {
+  padding: 10px;
+}
+
+img {
+  width: 247px;
+  border-radius: 5px;
+  display: block; /* para garantir que a margem funcione corretamente */
+}
+
+h1 {
+  width: 300px;
+  color: white;
+  height: 80px;
+  display: grid;
+  align-content: center;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: -40px;
+}
+
+.como_fazer {
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+}
